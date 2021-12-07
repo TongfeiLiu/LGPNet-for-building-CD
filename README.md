@@ -29,8 +29,9 @@ python BCD_test.py
 data_path = "./samples/WHU/train"  
 epochs=110, batch_size=4, lr=0.0001, ModelName='DPN_Inria', is_Transfer= True  
 BFENet.load_state_dict(torch.load('Pretrain_BFE_'+ModelName+'_model_epoch75_mIoU_89.657089.pth', map_location=device))  
-execute: python BCD_train.py  
 ```
+execute: python BCD_train.py  
+
 
 **BCD_test.py**  
 ```
@@ -68,3 +69,8 @@ This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We ar
 [2] Li H, Xiong P, An J, et al. Pyramid attention network for semantic segmentation[J]. arXiv preprint arXiv:1805.10180, 2018.  
 [3] Fu J, Liu J, Tian H, et al. Dual attention network for scene segmentation[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019: 3146-3154.  
 ```
+
+## Contact us 
+If you have any problme when running the code, please do not hesitate to contact us. Thanks.  
+E-mail: liutongfei_home@hotmail.com
+Date: Nov 7, 2021
