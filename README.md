@@ -44,8 +44,8 @@ label_path = glob.glob('./samples/WHU/test/label/*.tif')
 execute: python BCD_test.py
 
 ## Get results (Visual and Quantitative)
-Visual result: ./samples/WHU/test/results  
-Quantitative result: ./test_acc.txt   
+**Visual result:** ./samples/WHU/test/results  
+**Quantitative result:** ./test_acc.txt   
 
 ## Citation
 If you find our work useful for your research, please consider citing our paper:  
