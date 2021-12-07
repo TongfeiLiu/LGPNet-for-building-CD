@@ -1,5 +1,5 @@
 # LGPNet
-our recent paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on IEEE Transactions on Geoscience and Remote Sensing.  
+Our paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on IEEE Transactions on Geoscience and Remote Sensing.  
 
 ## Model Download Link
 Link: https://pan.baidu.com/s/15_gvp9seONXpHK90LDJN0Q  
@@ -72,5 +72,5 @@ This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We ar
 
 ## Contact us 
 If you have any problme when running the code, please do not hesitate to contact us. Thanks.  
-E-mail: liutongfei_home@hotmail.com
-Date: Nov 7, 2021
+E-mail: liutongfei_home@hotmail.com  
+Date: Nov 7, 2021  
