@@ -7,8 +7,8 @@ Password：yv9e
 
 ## Requirements
 >python=3.7.10  
->pytorch=1.9  
->opencv-python=4.1.0.25  
+pytorch=1.9  
+opencv-python=4.1.0.25  
 scikit-image=0.14.2  
 scikit-learn=0.24.1  
 tqdm  
@@ -32,7 +32,7 @@ Quantitative result: ./test_acc.txt
 ## Citation
 If you find our work useful for your research, please consider citing our paper:  
 
-@article{liu2021building,  
+>@article{liu2021building,  
   title={Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy},  
   author={Liu, Tongfei and Gong, Maoguo and Lu, Di and Zhang, Qingfu and Zheng, Hanhong and Jiang, Fenlong and Zhang, Mingyang},  
   journal={IEEE Transactions on Geoscience and Remote Sensing},  
