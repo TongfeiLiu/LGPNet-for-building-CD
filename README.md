@@ -17,13 +17,13 @@ tqdm
 1. Load the pretrain model path  
 2. Load the train and test(val) data path  
 python BCD_train.py  
-*Example:*  
+**Example:**  
 
 ## Test
 1. Load the model path  
 2. Load the test data path  
 python BCD_test.py  
-*Example:*  
+**Example:**  
 
 ## Get results (Visual and Quantitative)
 Visual result: ./samples/test/result  
