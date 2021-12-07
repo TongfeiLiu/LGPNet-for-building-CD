@@ -5,10 +5,10 @@ our recent paper: "[Building Change Detection for VHR Remote Sensing Images via 
 Link: https://pan.baidu.com/s/15_gvp9seONXpHK90LDJN0Q  
 Password：yv9e
 
-## Environment Configuration
-python=3.7.10  
-pytorch=1.9  
-opencv-python=4.1.0.25  
+## Requirements
+>python=3.7.10  
+>pytorch=1.9  
+>opencv-python=4.1.0.25  
 scikit-image=0.14.2  
 scikit-learn=0.24.1  
 tqdm  
