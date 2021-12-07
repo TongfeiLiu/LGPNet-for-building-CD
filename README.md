@@ -1,17 +1,22 @@
 # LGPNet
-our recent paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on IEEE Transactions on Geoscience and Remote Sensing. 
+our recent paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on IEEE Transactions on Geoscience and Remote Sensing.  
 
 ## Model Download Link
-Link: https://pan.baidu.com/s/15_gvp9seONXpHK90LDJN0Q 
+Link: https://pan.baidu.com/s/15_gvp9seONXpHK90LDJN0Q  
 Password：yv9e
 
 ## Environment Configuration
-python=3.7.10
-pytorch=1.9
-opencv-python=4.1.0.25
-scikit-image=0.14.2
-scikit-learn=0.24.1
-tqdm
+python=3.7.10  
+
+pytorch=1.9  
+
+opencv-python=4.1.0.25  
+
+scikit-image=0.14.2  
+
+scikit-learn=0.24.1  
+
+tqdm  
 
 ## Train
 1. Load the pretrain model path
@@ -29,7 +34,7 @@ Quantitative result: ./test_acc.txt
 
 ## Citation
 If you find our work useful for your research, please consider citing our paper:
-(```)
+
 @article{liu2021building,
   title={Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy},
   author={Liu, Tongfei and Gong, Maoguo and Lu, Di and Zhang, Qingfu and Zheng, Hanhong and Jiang, Fenlong and Zhang, Mingyang},
@@ -41,6 +46,6 @@ If you find our work useful for your research, please consider citing our paper:
   doi={10.1109/TGRS.2021.3130940}},
   publisher={IEEE}
 }
-(```)
+
 
 ## Acknowledgement
