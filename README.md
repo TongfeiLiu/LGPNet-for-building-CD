@@ -1,6 +1,9 @@
 # LGPNet
 Our paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on IEEE Transactions on Geoscience and Remote Sensing.  
 
+## Result Preview  
+![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
+
 ## Model Download Link
 Link: https://pan.baidu.com/s/15_gvp9seONXpHK90LDJN0Q  
 Password：yv9e
