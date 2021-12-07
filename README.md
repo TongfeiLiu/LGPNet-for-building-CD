@@ -49,9 +49,9 @@ This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We ar
 [2] Li H, Xiong P, An J, et al. Pyramid attention network for semantic segmentation[J]. arXiv preprint arXiv:1805.10180, 2018.  
 [3] Fu J, Liu J, Tian H, et al. Dual attention network for scene segmentation[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019: 3146-3154.  
 
-(```)
+```
     function fun(){
          echo "这是一句非常牛逼的代码";
     }
     fun();
-(```)
+```
