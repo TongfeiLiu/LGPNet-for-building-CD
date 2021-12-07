@@ -17,11 +17,13 @@ tqdm
 1. Load the pretrain model path  
 2. Load the train and test(val) data path  
 python BCD_train.py  
+*Example:*  
 
 ## Test
 1. Load the model path  
 2. Load the test data path  
 python BCD_test.py  
+*Example:*  
 
 ## Get results (Visual and Quantitative)
 Visual result: ./samples/test/result  
@@ -35,8 +37,6 @@ If you find our work useful for your research, please consider citing our paper:
   author={Liu, Tongfei and Gong, Maoguo and Lu, Di and Zhang, Qingfu and Zheng, Hanhong and Jiang, Fenlong and Zhang, Mingyang},  
   journal={IEEE Transactions on Geoscience and Remote Sensing},  
   year={2021},  
-  volume={},  
-  number={},  
   pages={1-17},  
   doi={10.1109/TGRS.2021.3130940}},  
   publisher={IEEE}  
@@ -44,3 +44,4 @@ If you find our work useful for your research, please consider citing our paper:
 
 
 ## Acknowledgement
+We are grateful 
