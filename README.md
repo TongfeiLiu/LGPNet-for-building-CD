@@ -17,16 +17,34 @@ tqdm
 1. Load the pretrain model path  
 2. Load the train and test(val) data path  
 python BCD_train.py  
-**Example:**  
 
 ## Test
 1. Load the model path  
 2. Load the test data path  
 python BCD_test.py  
-**Example:**  
+
+## Example(WHU)
+**BCD_train.py** 
+```
+data_path = "./samples/WHU/train"  
+epochs=110, batch_size=4, lr=0.0001, ModelName='DPN_Inria', is_Transfer= True  
+BFENet.load_state_dict(torch.load('Pretrain_BFE_'+ModelName+'_model_epoch75_mIoU_89.657089.pth', map_location=device))  
+execute: python BCD_train.py  
+```
+
+**BCD_test.py**  
+```
+BFENet.load_state_dict(torch.load('BestmIoU_BFE_DPN_epoch91_mIoU_91.864527.pth', map_location=device))
+BCDNet.load_state_dict(torch.load('BestmIoU_BCD_DPN_epoch91_mIoU_91.864527.pth', map_location=device))
+
+tests1_path = glob.glob('./samples/WHU/test/image1/*.tif')  
+tests2_path = glob.glob('./samples/WHU/test/image2/*.tif')  
+label_path = glob.glob('./samples/WHU/test/label/*.tif')  
+```
+execute: python BCD_test.py
 
 ## Get results (Visual and Quantitative)
-Visual result: ./samples/test/result  
+Visual result: ./samples/WHU/test/results  
 Quantitative result: ./test_acc.txt   
 
 ## Citation
