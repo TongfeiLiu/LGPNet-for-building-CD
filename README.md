@@ -63,7 +63,7 @@ If you find our work useful for your research, please consider citing our paper:
 ```
 
 ## Acknowledgement
-This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We are very grateful for the contributions of these papers and related codes. In addtion, we are also very grateful for the outstanding contributions of the published data sets (WHU and LEVIR) of the papers [4] and [5]. 
+This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We are very grateful for the contributions of these papers and related codes. In addtion, we are also very grateful for the outstanding contributions of the publicly available datasets (WHU and LEVIR) of the papers [4] and [5]. 
 ```
 [1] Zhao H, Shi J, Qi X, et al. Pyramid scene parsing network[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 2881-2890.  
 [2] Li H, Xiong P, An J, et al. Pyramid attention network for semantic segmentation[J]. arXiv preprint arXiv:1805.10180, 2018.  
