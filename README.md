@@ -31,7 +31,7 @@ Quantitative result: ./test_acc.txt
 
 ## Citation
 If you find our work useful for your research, please consider citing our paper:  
-
+```
 >@article{liu2021building,  
   title={Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy},  
   author={Liu, Tongfei and Gong, Maoguo and Lu, Di and Zhang, Qingfu and Zheng, Hanhong and Jiang, Fenlong and Zhang, Mingyang},  
@@ -41,7 +41,7 @@ If you find our work useful for your research, please consider citing our paper:
   doi={10.1109/TGRS.2021.3130940},  
   publisher={IEEE}  
 }  
-
+```
 
 ## Acknowledgement
 This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We are very grateful for the contributions of these papers and related codes. 
@@ -49,9 +49,3 @@ This code is heavily borrowed from the PSPNet[1], PANet[2], DANet[3], etc. We ar
 [2] Li H, Xiong P, An J, et al. Pyramid attention network for semantic segmentation[J]. arXiv preprint arXiv:1805.10180, 2018.  
 [3] Fu J, Liu J, Tian H, et al. Dual attention network for scene segmentation[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019: 3146-3154.  
 
-```
-    function fun(){
-         echo "这是一句非常牛逼的代码";
-    }
-    fun();
-```
