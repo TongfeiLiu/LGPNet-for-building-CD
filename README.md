@@ -16,17 +16,18 @@ scikit-image=0.14.2
 scikit-learn=0.24.1  
 tqdm  
 
-## Train
+## Usage
+### Train
 1. Load the pretrain model path  
 2. Load the train and test(val) data path  
 python BCD_train.py  
 
-## Test
+### Test
 1. Load the model path  
 2. Load the test data path  
 python BCD_test.py  
 
-## Example(WHU)
+### Example(WHU)
 **BCD_train.py** 
 ```
 data_path = "./samples/WHU/train"  
@@ -47,7 +48,7 @@ label_path = glob.glob('./samples/WHU/test/label/*.tif')
 ```
 execute: python BCD_test.py
 
-## Get results (Visual and Quantitative)
+### Get results (Visual and Quantitative)
 **Visual result:** ./samples/WHU/test/results  
 **Quantitative result:** ./test_acc.txt   
 
