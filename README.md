@@ -34,7 +34,7 @@ data_path = "./samples/WHU/train"
 epochs=110, batch_size=4, lr=0.0001, ModelName='DPN_Inria', is_Transfer= True  
 BFENet.load_state_dict(torch.load('Pretrain_BFE_'+ModelName+'_model_epoch75_mIoU_89.657089.pth', map_location=device))  
 ```
-execute: python BCD_train.py  
+run: python BCD_train.py  
 
 
 **BCD_test.py**  
@@ -46,7 +46,7 @@ tests1_path = glob.glob('./samples/WHU/test/image1/*.tif')
 tests2_path = glob.glob('./samples/WHU/test/image2/*.tif')  
 label_path = glob.glob('./samples/WHU/test/label/*.tif')  
 ```
-execute: python BCD_test.py
+run: python BCD_test.py
 
 **Note**  
 We recommend importing the complete data set before executing training, otherwise, an error will be reported during the verification process (Error: the denominator cannot be zero in the evaluation index calculation). 
