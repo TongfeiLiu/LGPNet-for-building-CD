@@ -49,7 +49,7 @@ label_path = glob.glob('./samples/WHU/test/label/*.tif')
 run: python BCD_test.py
 
 **Note**  
-We recommend importing the complete data set before executing training, otherwise, an error will be reported during the verification process (Error: the denominator cannot be zero in the evaluation index calculation). 
+We recommend importing the complete data set before executing training, otherwise, an error will be reported during the training process (Error: the denominator cannot be zero in the evaluation index calculation). 
 
 ### Get results (Visual and Quantitative)
 **Visual result:** ./samples/WHU/test/results  
