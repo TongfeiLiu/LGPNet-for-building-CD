@@ -1,5 +1,5 @@
 # LGPNet
-Our paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on <font size=5>**IEEE Transactions on Geoscience and Remote Sensing**</font> by Tongfei Liu, Maoguo Gong, Di Lu, Qingfu Zhang, Hanhong Zheng, Fenlong Jiang, and Mingyang Zhang.  
+This is a official implementation for our paper: "[Building Change Detection for VHR Remote Sensing Images via Local-Global Pyramid Network and Cross-Task Transfer Learning Strategy](https://ieeexplore.ieee.org/abstract/document/9627698)" has been published on <font size=5>**IEEE Transactions on Geoscience and Remote Sensing**</font> by Tongfei Liu, Maoguo Gong, Di Lu, Qingfu Zhang, Hanhong Zheng, Fenlong Jiang, and Mingyang Zhang.  
 
 ## Result Preview  
 ![Example results of our proposed LGPNet and the other methods on the WHUCD dataset: (a) T1- time images, (b) T2-time images, (c) Ground truth map, and (f) Our proposed LGPNet. (Notation: red color, cyan color, white color, and black color denote missed detection pixels, false detection pixels, correct detection changed pixels, correct detection unchanged pixels, respectively.)](https://github.com/TongfeiLiu/LGPNet/blob/main/Preview.png)
