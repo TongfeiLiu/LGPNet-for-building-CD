@@ -40,12 +40,12 @@ def train_net(net, BFENet, device, data_path, epochs=110, batch_size=4, lr=0.000
     scheduler1 = torch.optim.lr_scheduler.MultiStepLR(optimizerBCDNet, milestones=[10, 20, 30, 40, 50, 55, 60, 65, 70, 75, 80, 85, 90], gamma=0.9)
     scheduler2 = torch.optim.lr_scheduler.MultiStepLR(optimizerBFENet, milestones=[10, 20, 30, 40, 50, 55, 60, 65, 70, 75, 80, 85, 90], gamma=0.9)
 
-    # 定义bec loss
+    # Define bec loss
     criterion = nn.BCEWithLogitsLoss()
 
     f_loss = open('train_loss.txt', 'w')
     f_time = open('train_time.txt', 'w')
-    # 训练epochs次
+    # setting training epochs
     for epoch in range(1, epochs+1):
         BFENet.train()
         net.train()
@@ -61,7 +61,7 @@ def train_net(net, BFENet, device, data_path, epochs=110, batch_size=4, lr=0.000
                 optimizerBCDNet.zero_grad()
                 optimizerBFENet.zero_grad()
 
-                # 将数据拷贝到device中
+                # load images to device
                 image1 = image1.to(device=device)
                 image2 = image2.to(device=device)
                 label = label.to(device=device)
@@ -134,6 +134,8 @@ def val(net1, net2, device, epoc):
     FNSum = 0
     C_Sum_or = 0
     UC_Sum_or = 0
+    OA, Precision, Recall, F1 = 0,0,0,0
+    IoU, c_IoU, uc_IoU = 0,0,0
     num = 0
     val_acc = open('val_acc.txt', 'a')
     val_acc.write('===============================' + 'epoch=' + str(epoc) + '==============================\n')
